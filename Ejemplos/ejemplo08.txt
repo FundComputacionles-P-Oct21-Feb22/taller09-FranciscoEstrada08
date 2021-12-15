@@ -9,16 +9,41 @@
 5.  valor, i[0-n]
 6.  suma, i[0-n]
 7.  notasEstudiantes <--{{10, 9, 8}, {10, 5, 5}}
-8.  Para(fila<--0, fila<2, 1) haga
+8.  Para(fila<--0, fila<2, 1) haga //0<2 v //1<2 v //2<2 f
 9.    suma <-- 0
-10.   Para(columna<--0, columna<3, 1) haga
-11.     suma <-- suma + notasEstudiantes[fila][columna] 
+10.   Para(columna<--0, columna<3, 1) haga //0<3 v //1<3v //2<3v //3<3f
+					   //0<3 v //1<3v //2<3v //3<3f
+11.     suma <-- suma + notasEstudiantes[fila][columna]
+			0+notasEstudiantes[0][0] // 0+10=10 
+			10+notasEstudiante[0][1] //10+9=19
+			19+notasEstudaintes[0][2] //19+8=27
+			0+notasEstudiantes[1][0] //0+10=10
+			10+notasEstudiante[1][1] //10+5=15
+			15+notasEstudiantes[1][2] // 15+5=20
+			
 12.   Fin_Para
 13.   Escribir suma
 14. Fin_Para 
 15. Fin 
 
-//
+// Pantalla
+27
+20
+
+// Suma
+0
+10
+19
+27
+0
+10
+15
+20
+//fila: 0,1,2
+//columna: 0,1,2,3 //0,1,2,3
+
+
+
 fila = 0
 0<2 = verdadero
 suma = 0

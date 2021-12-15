@@ -1,0 +1,24 @@
+//problema04
+
+//0 0 0 0
+//0 0 0 0
+
+1.Inicio
+2.(vendedores(2),x(40) [{A-Z}, {a-z}, {BS)
+3.(ventas(2)(5),d[0-n])
+4.vendedores <-- { {Gabriela Lewis, David Bell} }
+6.filas, i[0-n]
+7.columnas, i[0-n]
+8.indice, i[0-n]
+9.suma, i[0-n]
+10.cadena <--- ""
+
+11.Para(filas<--0,filas<2,1)
+12.	indice<--filas
+13.	Para(colummnas <-- 0,columnas<5,1)
+14.		suma<-- suma+ventas(filas)(colummnas)
+15.	Fin Para
+16.	cadenaFinal <-- cadena + "vededor: " + vendedores(indice)
+17.Fin para
+18.Escribir cadena + "Ha realizado un total de " + suma 6 " en ventas"
+19.Fin

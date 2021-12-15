@@ -1,0 +1,26 @@
+//  Ejemplo de uso de arreglos bidimensional
+//
+//  20     30     40   50
+//  2      3      4    5
+//  200    300    400  500
+//  10      11    12   14
+1.Inicio
+2.(numeros(4)(4), i[0-n])
+3.numeros  <--- { {20, 30, 40, 50}, {2, 3, 4, 5}, {200, 300, 400, 500}, {10, 11, 12, 14} }
+4.fila, i[0-n]
+5.columna, i[0-n]
+
+6.Para(fila <-- 0, fila < 3, 1)
+7.	Para(columna <--3, columna > fila,-1)
+		8.Escribir numeros(fila)(columna) 
+9.	Fin Para
+10.Fin Para
+
+//Pantalla
+
+50
+40
+30
+5
+4
+500
